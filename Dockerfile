@@ -16,7 +16,7 @@ ARG uid=1001
 ARG user=demo
 
 RUN apt-get update -y && \
-	apt-get install -y sudo vim gettext iputils-ping mlocate git curl openssl zip unzip jq openjdk-8-jdk && \
+	apt-get install -y sudo wget vim gettext iputils-ping mlocate git curl openssl zip unzip jq openjdk-8-jdk && \
 	updatedb && \
 	apt-get clean all -y && \
 	curl -sL https://ibm.biz/idt-installer | bash && \
