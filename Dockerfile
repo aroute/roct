@@ -21,7 +21,7 @@ RUN apt-get update -y && \
 	apt-get clean all -y && \
 #	curl -sL https://ibm.biz/idt-installer | bash && \
         curl -fsSL https://clis.cloud.ibm.com/install/linux | sh && \
-	ibmcloud plugin install container-service && \
+	ibmcloud plugin install container-service -r 'IBM Cloud' && \
 	curl -fsSL -o get_helm.sh https://raw.githubusercontent.com/helm/helm/master/scripts/get-helm-3 && \
 	chmod 700 get_helm.sh && \
 	bash ./get_helm.sh && \
