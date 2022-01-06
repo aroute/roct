@@ -21,12 +21,12 @@ RUN apt-get update -y && \
 	apt-get clean all -y && \
 #	curl -sL https://ibm.biz/idt-installer | bash && \
         curl -fsSL https://clis.cloud.ibm.com/install/linux | sh && \
+	ibmcloud plugin install container-service && \
 	curl -fsSL -o get_helm.sh https://raw.githubusercontent.com/helm/helm/master/scripts/get-helm-3 && \
 	chmod 700 get_helm.sh && \
 	bash ./get_helm.sh && \
 	curl -sLo /tmp/oc.tar.gz https://mirror.openshift.com/pub/openshift-v4/x86_64/clients/oc/4.6/linux/oc.tar.gz && \
 	tar xzvf /tmp/oc.tar.gz -C /usr/local/bin/ && \
-	ibmcloud plugin install container-service && \
 	rm -rf /tmp/oc.tar.gz && \
 	groupadd -g ${gid} ${group} && useradd -u ${uid} -g ${group} -ms /bin/sh ${user} && \
 	usermod -aG sudo ${user} && \
