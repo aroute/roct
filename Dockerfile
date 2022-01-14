@@ -4,7 +4,7 @@ LABEL name="remote-container-toolkit" \
       vendor="self" \
       version="0.1" \
       release="1" \
-	  maintainer="Arif A" \
+      maintainer="Arif A" \
       summary="CLI Toolkit" \
       description="Ubuntu instance with IBM Cloud, OpenShift, Kubectl, Helm and other needed tools. For use with Visual Studio Code remote container."
 
