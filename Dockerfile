@@ -5,7 +5,7 @@ LABEL name="roct" \
       version="0.1" \
       release="1" \
       maintainer="Arif A" \
-      summary="Remote Container OCP Toolkit" \
+      summary="Remote OCP Container Toolkit" \
       description="Ubuntu instance with IBM Cloud, OpenShift, Kubectl, Helm and other needed tools. For use with Visual Studio Code remote container."
 
 USER root
