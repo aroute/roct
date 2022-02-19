@@ -1,10 +1,10 @@
 # Remote OCP Container Terminal (ROCT)
 
-This `Dockerfile` uses an Ubuntu container image to build an environment with command line tools from several cloud vendors (IBM® Cloud, Red Hat® OpenShift®, Kubectl, Helm, etc).
+This solution uses an Ubuntu container image to build a remote environment with command line tools from several cloud vendors: IBM® Cloud, Red Hat® OpenShift®, Kubectl, Helm, etc.
 
-The primary purpose of this `is to run a remote container in OpenShift via VS Code's Remote Container extension.  
+The primary purpose of this is to run a remote container in an OpenShift cluster via Microsoft Visual Studio Code's Remote Container extension.  
 
-Using IBM Cloud's File Storage (Gold), you can use this solution by deploying the container.
+Using IBM Cloud's File Storage, you can use this solution by deploying the container.
 
 ```
 oc new-project roct
