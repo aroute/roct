@@ -36,3 +36,10 @@ oc create -f roct-file.yaml
 ```powershell
 .\win_roct_file.ps1
 ```
+
+#### Troubleshooting
+
+On Windows, in the Powershell. If you receive an error about the code not being digitally signed. Run the following command:
+```
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+```
