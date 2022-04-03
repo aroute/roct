@@ -7,8 +7,12 @@ The primary goal of this is to use Microsoft Visual Studio Code's Remote Contain
 The solution uses IBM File or Block (for ROKS clusters) and managed-nfs-storage (Technology Zone).
 
 ## Manual deploy
-See below section if you wish to deploy via a bash or powershell script.
 
+⤵️ See below section if you wish to automatically deploy via a bash or powershell script.
+
+```
+oc login ...
+```
 ```
 oc new-project roct
 ```
@@ -28,11 +32,17 @@ oc create -f roct-file.yaml
 
 ## Automated
 
-### Linux
+### MacOS/Linux
+```shell
+oc login ...
+```
 ```shell
 ./roct_file.sh
 ```
 ### Windows
+```powershell
+oc login ...
+```⌥
 ```powershell
 .\win_roct_file.ps1
 ```
