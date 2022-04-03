@@ -46,6 +46,9 @@ oc login ...
 ```powershell
 .\win_roct_file.ps1
 ```
+1. From VS Code running locally, install Microsoft's Kubernetes and Remote Development extensions.
+2. Log in to your OpenShift cluster locally (oc login ...)
+3. Click on VS Code's Kubernetes extension icon. Right-click roct-0 pod and select Attach VS Code ...
 
 #### Troubleshooting
 
