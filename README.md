@@ -42,7 +42,7 @@ oc login ...
 ### Windows
 ```powershell
 oc login ...
-```⌥
+```
 ```powershell
 .\win_roct_file.ps1
 ```
