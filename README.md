@@ -27,14 +27,16 @@ oc create -f roct-file.yaml
 ```
 
 1. From VS Code running locally, install Microsoft's [Kubernetes](https://code.visualstudio.com/docs/azure/kubernetes#_install-the-kubernetes-extension) and [Remote Development](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack) extensions. 
-2. Log in to your OpenShift cluster locally (oc login ...)
-3. Click on VS Code's Kubernetes extension icon. Right-click roct-0 pod and select Attach VS Code ...
+2. Click on VS Code's Kubernetes extension icon. Drop-down the cluster with roct. Drop-down Workloads - Pods. Right-click `roct-0` pod and select Attach VS Code ...
 
-## Automated
+## Automated Install
 
 ### MacOS/Linux
 ```shell
 oc login ...
+```
+```shell
+chmod +x roct_file.sh
 ```
 ```shell
 ./roct_file.sh
@@ -46,9 +48,8 @@ oc login ...
 ```powershell
 .\win_roct_file.ps1
 ```
-1. From VS Code running locally, install Microsoft's Kubernetes and Remote Development extensions.
-2. Log in to your OpenShift cluster locally (oc login ...)
-3. Click on VS Code's Kubernetes extension icon. Right-click roct-0 pod and select Attach VS Code ...
+1. From VS Code running locally, install Microsoft's [Kubernetes](https://code.visualstudio.com/docs/azure/kubernetes#_install-the-kubernetes-extension) and [Remote Development](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack) extensions. 
+2. Click on VS Code's Kubernetes extension icon. Drop-down the cluster with roct. Drop-down Workloads - Pods. Right-click `roct-0` pod and select Attach VS Code ...
 
 #### Troubleshooting
 
