@@ -6,10 +6,15 @@ The primary goal of this is to use Microsoft Visual Studio Code's Remote Contain
 
 The solution uses IBM File or Block (for ROKS clusters) and managed-nfs-storage (Technology Zone).
 
+📝 This solution assumes you already have `ibmcloud` and `oc` CLIs installed on your laptop (Mac/Windows/Linux).
+
 ## Manual deploy
 
 ⤵️ See below section if you wish to automatically deploy via a bash or powershell script.
 
+```
+git clone https://github.com/aroute/roct.git
+```
 ```
 oc login ...
 ```
@@ -33,6 +38,9 @@ oc create -f roct-file.yaml
 ## Automated Install
 
 ### MacOS/Linux
+```
+git clone https://github.com/aroute/roct.git
+```
 ```shell
 oc login ...
 ```
@@ -43,6 +51,9 @@ chmod +x roct_file.sh
 ./roct_file.sh
 ```
 ### Windows
+
+Download this repository (zip file) and extract (see download button above). Launch PowerShell and move into the directory where you downloaded/extracted this repository.
+
 ```powershell
 oc login ...
 ```
