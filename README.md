@@ -60,9 +60,13 @@ oc login ...
 ```powershell
 .\win_roct_file.ps1
 ```
+
+## Attach VS Code to Remote Container
+
 1. From VS Code running locally, install Microsoft's [Kubernetes](https://code.visualstudio.com/docs/azure/kubernetes#_install-the-kubernetes-extension) and [Remote Development](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack) extensions. 
 2. Click on VS Code's Kubernetes extension icon. Drop-down the cluster with roct. Drop-down Workloads - Pods. Right-click `roct-0` pod and select Attach VS Code.
-3. This opens up a new VS Code window. The extension will install some binaries on the remote container. Wait for the installation to finish and then open a folder to `/home/demo/` directory. Open a Terminal and type bash to switch to bash prompt.
+3. This opens up a new VS Code window. The extension will install some binaries on the remote container. Wait for the installation to finish and then open a folder to `/home/demo/` directory. Open a Terminal and type `bash` to switch to the bash prompt.
+4. Log in to OpenShift `oc login ...` Your remote container environment with Ubuntu is all set up for you to proceed.
 
 #### Troubleshooting
 
