@@ -8,7 +8,7 @@ The solution uses IBM File or Block (for ROKS clusters) and managed-nfs-storage 
 
 📝 For the initial setup, this solution assumes you already have `oc` client installed on your laptop (Mac/Windows/Linux).
 
-⛔️ Choose one: Manual or Automated
+# ⛔️ Choose one: Manual or Automated
 
 ## Manual Installation (MacOS/Linux)
 
