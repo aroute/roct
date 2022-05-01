@@ -6,7 +6,7 @@ The primary goal of this solution is to use Microsoft Visual Studio Code's Remot
 
 The solution integrates with IBM File or Block storage provisioner (for managed-hosted Classic OpenShift cluster) and NFS provisioner (for Technology Zone's Classic OpenShift cluster). The integration with Virtual Private Cloud (VPC) with OpenShift Data Foundation (ODF) is forthcoming.
 
-📝 For the initial setup, this solution assumes you already have `oc`, `kubectl` client available on system path and VS Code installed (Mac/Windows/Linux).
+📝 For the initial setup, this solution assumes you already have `oc`, `kubectl` client available on the system path and VS Code installed (Mac/Windows/Linux).
 
 ## ⛔️ Choose one: Manual or Automated
 
