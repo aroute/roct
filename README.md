@@ -1,8 +1,8 @@
 # Remote OCP Container Terminal (ROCT)
 
-This solution uses a pre-configured Ubuntu container image to build a remote environment with command line tools from several cloud vendors: IBM® Cloud, Red Hat® OpenShift®, Kubectl, Helm, etc.
+This solution uses a pre-configured Ubuntu container image to build a remote environment in OpenShift cluster with command line tools from several cloud vendors: IBM® Cloud, Red Hat® OpenShift®, Kubectl, Helm, etc.
 
-The primary goal of this solution is to use Microsoft Visual Studio Code's Remote Container extension to run a remote container in an OpenShift cluster.  
+The primary goal of this solution is to use Microsoft Visual Studio Code's Remote Container extension to remote connect to a Linux environment in an OpenShift cluster.  
 
 The solution integrates with IBM File or Block storage provisioner (for managed-hosted Classic OpenShift cluster) and NFS provisioner (for Technology Zone's Classic OpenShift cluster). The integration with Virtual Private Cloud (VPC) with OpenShift Data Foundation (ODF) is forthcoming.
 
