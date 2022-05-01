@@ -10,7 +10,7 @@ The solution uses IBM File or Block (for ROKS clusters) and managed-nfs-storage 
 
 ⛔️ Choose one: Manual or Automated
 
-## Manual Install (MacOS/Linux)
+## Manual Installation (MacOS/Linux)
 
 <details>
   <summary>Click to expand!</summary>
@@ -42,7 +42,7 @@ See below **How to attach VS Code to Remote Container**
 </details>
 
 
-## Automated Install (Windows/MacOS/Linux)
+## Automated Installation (Windows/MacOS/Linux)
 
 <details>
   <summary>Click to expand!</summary>
