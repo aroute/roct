@@ -2,11 +2,11 @@
 
 This solution uses an Ubuntu container image to build a remote environment with command line tools from several cloud vendors: IBM® Cloud, Red Hat® OpenShift®, Kubectl, Helm, etc.
 
-The primary goal of this is to use Microsoft Visual Studio Code's Remote Container extension to run a remote container in an OpenShift cluster.  
+The primary goal of this solution is to use Microsoft Visual Studio Code's Remote Container extension to run a remote container in an OpenShift cluster.  
 
 The solution uses IBM File or Block (for ROKS clusters) and managed-nfs-storage (Technology Zone).
 
-📝 This solution assumes you already have `ibmcloud` and `oc` CLIs installed on your laptop (Mac/Windows/Linux).
+📝 For the initial setup, this solution assumes you already have `ibmcloud` and `oc` CLIs installed on your laptop (Mac/Windows/Linux).
 
 ## Manual deploy
 
