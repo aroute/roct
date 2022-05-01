@@ -1,3 +1,8 @@
+#!/bin/bash
+oc new-project roct
+oc create serviceaccount roct
+oc adm policy add-scc-to-user privileged -n roct -z roct
+cat <<EOF | oc create -f -
 apiVersion: apps/v1
 kind: StatefulSet
 metadata:
@@ -32,3 +37,4 @@ spec:
         requests:
           storage: 20Gi
       storageClassName: ibmc-block-gold
+EOF
