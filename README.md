@@ -4,11 +4,11 @@ This solution uses a pre-configured Ubuntu container image to build a remote env
 
 The primary goal of this solution is to use Microsoft Visual Studio Code's Remote Container extension to run a remote container in an OpenShift cluster.  
 
-The solution uses IBM File or Block (for ROKS clusters) and managed-nfs-storage (Technology Zone).
+The solution integrates with IBM File or Block storage provisioner (for managed-hosted Classic OpenShift cluster) and NFS provisioner (for Technology Zone's Classic OpenShift cluster). The integration with Virtual Private Cloud (VPC) with OpenShift Data Foundation (ODF) is forthcoming.
 
-📝 For the initial setup, this solution assumes you already have `oc` client installed on your laptop (Mac/Windows/Linux).
+📝 For the initial setup, this solution assumes you already have `oc` client and VS Code installed (Mac/Windows/Linux).
 
-# ⛔️ Choose one: Manual or Automated
+## ⛔️ Choose one: Manual or Automated
 
 ## Manual Installation (MacOS/Linux)
 
